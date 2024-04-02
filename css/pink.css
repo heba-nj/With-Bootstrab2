@@ -1,0 +1,96 @@
+:root {
+    --blue-color:  #004de6;
+}
+body {
+    font-family: 'Gabarito', 'cursive';
+    font-family: 'Nunito', sans-serif;
+}
+.navbar .navbar-brand {
+    color:  var(--blue-color);
+}
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+}
+.box .bg-gradient-primary-to-secondary {
+    background: #1e30f3;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    width: fit-content;
+    border-radius: 0.5rem;
+    font-size: 12px;
+}
+.box .cans {
+    font-weight: 100;
+}
+.box .space {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-size: 70px;
+}
+.box .butt .buttt{
+    background-color: var(--blue-color);
+    color: white;
+    margin-right: 30px;
+}
+.test {
+    width: 30rem;
+    height: 500px;
+    background-color: #1e30f3;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    border-radius: 4.5rem;
+    position: relative;
+    margin-top: 70px;
+}
+.test .imgg  {
+    width: 25rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -57%);
+    margin-top: 15px;
+}
+.about {
+    background-color: #f0f5f5;
+}
+.about .textt {
+    background: -webkit-linear-gradient(315deg, #1e30f3 0%, #e21e80 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.about .my {
+    font-weight: 300;
+}
+.about .icons a svg {
+    font-size: 30px;
+    color: #e21e80;
+}
+.footer span {
+    color: #e21e80;
+    font-weight: bold;
+}
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.second .email {
+    background-color: #1e30f3;
+    background: linear-gradient(135deg, #1e30f3 0%, #e21e80 100%);
+    width: 50px;
+    height: 50px;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.second .email svg {
+    position: absolute;
+    font-size: 20px;
+    left: 62%;
+    top: 50%;
+    transform: translate(-75%, -68%);
+}
+.second h1 {
+    margin-bottom: -100px;
+    margin-left: -140px;
+    font-weight: bold;
+}
